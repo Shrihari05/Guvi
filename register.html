@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <!-- Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Your custom CSS file -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body class="bg-dark">
+    <div class ="container offset-lg-2 mt-6" id="container">
+     
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4 bg-light rounded" id="register-box">
+                <h2 class="text-center mt-2">Register</h2>
+                <form id="register-form">
+                        <div class="form-group mt-4">
+                       
+                        <input type="number" class="form-control " placeholder="Roll Number" id="rollno" name="rollno" required>
+                    </div>
+                    <div class="form-group">
+                       
+                        <input type="text" class="form-control" id="name" placeholder="User Name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        
+                        <input type="email" class="form-control" placeholder="E-mail" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                      
+                        <input type="password" class="form-control"  placeholder="Password" id="password" name="password" required>
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit" id="reg">Register</button>
+                    </div>
+                    <div class="form-group">
+                        <p>Already have an account? <a href="login.html">Login here</a>.</p>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap JS and jQuery CDN links (needed for Bootstrap) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Your custom JavaScript file for registration functionality -->
+    <script src='http://localhost/GUVI/js/register.js'></script>
+</body>
+
+</html>
