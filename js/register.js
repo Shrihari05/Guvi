@@ -3,13 +3,12 @@ $(document).ready(function() {
     $('#reg').submit(function(e) {
        e.preventDefault();
         
-        // Gather registration form data
+      
         var username = $('#name').val();
         var mail = $('#email').val();
         var pass = $('#password').val();
         var roll = $('#rollno').val();
 
-        // AJAX call for registration
         $.ajax({
             type:"POST",
             url: "http://localhost/GUVI/php/register.php",
